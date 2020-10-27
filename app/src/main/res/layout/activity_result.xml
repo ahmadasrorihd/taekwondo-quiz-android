@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:background="@drawable/background"
+        android:padding="@dimen/activity_margin_16"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:textColor="@color/white"
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/your_score"
+            android:fontFamily="@font/roboto_bold"
+            android:textSize="@dimen/text_size_24sp"/>
+        <TextView
+            android:id="@+id/tv_score"
+            android:textColor="@color/white"
+            android:layout_below="@id/tv_title"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/score"
+            android:fontFamily="@font/roboto_bold"
+            android:textSize="28sp"/>
+    </RelativeLayout>
+
+</layout>

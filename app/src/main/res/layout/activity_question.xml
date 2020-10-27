@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <RelativeLayout
+        android:background="@drawable/background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:padding="@dimen/margin_8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:padding="@dimen/margin_8dp"
+                        android:background="@drawable/bg_paket"
+                        android:textColor="@color/colorBlack"
+                        android:id="@+id/tv_no"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_bold"
+                        android:text="@string/no" />
+                    <RelativeLayout
+                        android:id="@+id/rv_question"
+                        android:layout_marginStart="@dimen/margin_16dp"
+                        android:layout_toEndOf="@id/tv_no"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:layout_marginBottom="@dimen/margin_8dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            android:src="@drawable/ic_launcher_background"
+                            android:id="@+id/iv_question"/>
+
+                        <TextView
+                            android:padding="@dimen/margin_8dp"
+                            android:background="@drawable/bg_paket"
+                            android:id="@+id/tv_question"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/iv_question"
+                            android:textColor="@color/colorBlack"
+                            android:fontFamily="@font/roboto_bold"
+                            android:text="@string/sample_question" />
+                    </RelativeLayout>
+                    <LinearLayout
+                        android:layout_marginStart="@dimen/margin_16dp"
+                        android:layout_toEndOf="@id/tv_no"
+                        android:id="@+id/lay_answer"
+                        android:layout_marginTop="@dimen/activity_margin_16"
+                        android:layout_below="@id/rv_question"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:id="@+id/layout_answer_a"
+                            android:padding="@dimen/margin_8dp"
+                            android:background="@drawable/bg_paket"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/tv_answer_a"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/roboto_medium"
+                                android:text="@string/answer_a"
+                                android:textColor="@color/colorBlack" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:id="@+id/layout_answer_b"
+                            android:layout_marginTop="4dp"
+                            android:padding="@dimen/margin_8dp"
+                            android:background="@drawable/bg_paket"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/tv_answer_b"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/roboto_medium"
+                                android:text="@string/answer_b"
+                                android:textColor="@color/colorBlack" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:id="@+id/layout_answer_c"
+                            android:layout_marginTop="4dp"
+                            android:padding="@dimen/margin_8dp"
+                            android:background="@drawable/bg_paket"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/tv_answer_c"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/roboto_medium"
+                                android:text="@string/answer_c"
+                                android:textColor="@color/colorBlack" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:id="@+id/layout_answer_d"
+                            android:layout_marginTop="4dp"
+                            android:padding="@dimen/margin_8dp"
+                            android:background="@drawable/bg_paket"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/tv_answer_d"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/roboto_medium"
+                                android:text="@string/answer_d"
+                                android:textColor="@color/colorBlack" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </RelativeLayout>
+            </ScrollView>
+
+            <LinearLayout
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="48dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+                <Button
+                    android:visibility="gone"
+                    android:background="@drawable/btn_background"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:textColor="@color/white"
+                    android:text="@string/prev"
+                    android:fontFamily="@font/roboto_medium"
+                    android:textAllCaps="false"
+                    android:layout_marginEnd="@dimen/margin_4dp"
+                    android:layout_weight="1"
+                    android:id="@+id/btn_prev"/>
+                <Button
+                    android:background="@drawable/btn_background"
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:fontFamily="@font/roboto_medium"
+                    android:layout_height="48dp"
+                    android:layout_marginStart="@dimen/margin_4dp"
+                    android:text="@string/next"
+                    android:textAllCaps="false"
+                    android:layout_weight="1"
+                    android:id="@+id/btn_next"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</layout>

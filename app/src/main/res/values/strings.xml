@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Taekwondo Quiz</string>
+    <string name="no">No</string>
+    <string name="sample_question">Sample Question</string>
+    <string name="answer_a">Answer A</string>
+    <string name="answer_b">Answer B</string>
+    <string name="answer_c">Answer C</string>
+    <string name="answer_d">Answer D</string>
+    <string name="prev">Prev</string>
+    <string name="next">Next</string>
+    <string name="mulai">Mulai</string>
+    <string name="submit">Submit</string>
+    <string name="score">score</string>
+    <string name="your_score">Your Score</string>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FB0013</color>
+    <color name="colorBlue">#2D9CDB</color>
+    <color name="colorInActive">#BDBDBD</color>
+    <color name="colorWhite">#FFF</color>
+    <color name="colorBlack">#000</color>
+    <color name="colorBgWallet">#F2F2F2F2</color>
+    <color name="colorTxtPending">#2F80ED</color>
+    <color name="colorTxtSelesai">#6FCF97</color>
+    <color name="colorTxtPrimary">#333333</color>
+    <color name="colorTxtSecond">#828282</color>
+    <color name="colorTxtHint">#B2B0B0</color>
+    <color name="colorStatusBar">#808080</color>
+    <color name="colorRed">#FF0202</color>
+    <color name="colorBgPaket">#BDBDBD</color>
+    <color name="colorBgLogin">#EFEFEF</color>
+    <color name="colorBg">#E5E5E5</color>
+    <color name="colorPrimaryDark">#FFF</color>
+    <color name="colorAccent">#F08300</color>
+    <color name="colorBgDisable">#E0E0E0</color>
+    <color name="colorTxtDisable">#828282</color>
+    <color name="colorFullBlack">#000000</color>
+    <color name="colorSemiBlack">#454545</color>
+    <color name="white">#FFFFFF</color>
+    <color name="background">#f7f3ea</color>
+
+    <color name="colorRedBlood">#b50000</color>
+    <color name="colorRedLight">#E00000</color>
+    <color name="colorRedTrans">#80B50000</color>
+    <color name="colorSlateGrey">#A9A9A9</color>
+
+    <color name="colorTransparent">#33FFFFFF</color>
+    <color name="colorTrans30">#33FFFFFF</color>
+    <color name="colorTrans50">#80FFFFFF</color>
+    <color name="colorPassive">#BDBDBD</color>
+    <color name="borderGrey">#BDBDBD</color>
+    <color name="lightGrey">#F2F2F2</color>
+    <color name="colorBaseFont">#333333</color>
+    <color name="semitransparent">#9A000000</color>
+</resources>

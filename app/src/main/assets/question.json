@@ -1,0 +1,103 @@
+[
+  {
+    "no":"1",
+    "question":"Momotong Jierugi adalah",
+    "image":"null",
+    "answer_a":"a. pukulan arah kepala",
+    "answer_b":"b. pukulan arah dahi",
+    "answer_c":"c. pukulan arah perut",
+    "answer_d":"d. pukulan arah bawah",
+    "correct_answer":"c. pukulan arah perut"
+  },
+  {
+    "no":"2",
+    "question":"kuda-kuda dalam gibon 1 yaitu...",
+    "image":"null",
+    "answer_a":"a. ap chagi",
+    "answer_b":"b. ap kubi seogi",
+    "answer_c":"c. juchum seogi",
+    "answer_d":"d. ap seogi",
+    "correct_answer":"d. ap seogi"
+  },
+  {
+    "no":"3",
+    "question":"Tangkisan tangan arah bawah disebut juga",
+    "image":"null",
+    "answer_a":"a. are makki",
+    "answer_b":"b. eolgol makki",
+    "answer_c":"c. an palmok momtong bakkat makki",
+    "answer_d":"d. bakkat palmok momtong an makki",
+    "correct_answer":"a. are makki"
+  },
+  {
+    "no":"4",
+    "question":"Tendangan depan ke arah perut menggunakan kaki depan",
+    "image":"null",
+    "answer_a":"a. dollyo chagi",
+    "answer_b":"b. mumtong ap chagi",
+    "answer_c":"c. dwi chagi",
+    "answer_d":"d. eolgol ap chagi",
+    "correct_answer":"b. mumtong ap chagi"
+  },
+  {
+    "no":"5",
+    "question":"Gambar berikut merupakan tendangan",
+    "image":"img_question_5",
+    "answer_a":"a. dollyo chagi",
+    "answer_b":"b. mumtong ap chagi",
+    "answer_c":"c. yeop chagi",
+    "answer_d":"d. eolgol ap chagi",
+    "correct_answer":"c. yeop chagi"
+  }
+,
+  {
+    "no":"6",
+    "question":"Tangkisan Arah Perut dari luar ke dalam yaitu",
+    "image":"null",
+    "answer_a":"a. bakkat palmok mumtong an makki",
+    "answer_b":"b. an palmok mumtong bakkat makki",
+    "answer_c":"c. are Makki",
+    "answer_d":"d. eolgol makki",
+    "correct_answer":"a. bakkat palmok mumtong an makki"
+  },
+  {
+    "no":"7",
+    "question":"Tendangan pada gambar di atas merupakan",
+    "image":"img_question_7",
+    "answer_a":"a. ap Chagi",
+    "answer_b":"b. yeop Chagi",
+    "answer_c":"c. dwit Chagi",
+    "answer_d":"d. dollyo Chagi",
+    "correct_answer":"d. dollyo Chagi"
+  },
+  {
+    "no":"8",
+    "question":"Gambar diatas merupakan Teknik tangkisan",
+    "image":"img_question_8",
+    "answer_a":"a. are makki",
+    "answer_b":"b. dollyo makki",
+    "answer_c":"c. are ayu",
+    "answer_d":"d. mumtong makki",
+    "correct_answer":"a. are makki"
+  },
+  {
+    "no":"9",
+    "question":"Pukulan diatas merupakan pukulan",
+    "image":"img_question_9",
+    "answer_a":"a. dollyo jierugi",
+    "answer_b":"b. mumtong jierugi",
+    "answer_c":"c. yeop jierugi",
+    "answer_d":"d. san bion jierugi",
+    "correct_answer":"c. yeop jierugi"
+  },
+  {
+    "no":"10",
+    "question":"Teknik pemecahan benda keras atau papan adalah",
+    "image":"null",
+    "answer_a":"a. Poomsae",
+    "answer_b":"b. Kyukpa",
+    "answer_c":"c. Kyorugi",
+    "answer_d":"d.Taegeuk",
+    "correct_answer":"b. Kyukpa"
+  }
+]
